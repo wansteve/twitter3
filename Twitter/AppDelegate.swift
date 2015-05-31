@@ -20,6 +20,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         NSNotificationCenter.defaultCenter().addObserver(self, selector: "userDidLogout", name: userDidLoginNotification, object: nil)
         
+        
         if User.currentUser != nil {
             // Go to the logged in screen
             println("Current user detected: \(User.currentUser?.name)")
@@ -27,6 +28,34 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             window?.rootViewController = vc
             
         }
+
+
+        /* FIXED
+        let vc1 = UIViewController()
+        let vc2 = UIViewController()
+        let vc3 = UIViewController()
+        
+        vc1.view.backgroundColor = UIColor.redColor()
+        vc2.view.backgroundColor = UIColor.greenColor()
+        vc3.view.backgroundColor = UIColor.blueColor()
+        
+        vc1.title = "One"
+        vc2.title = "Two"
+        vc3.title = "Three"
+        
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+//        let viewController = storyboard.instantiateViewControllerWithIdentifier("IdentifierThatWasSetInStoryboard") as MyViewControllerClass
+        let menuViewController = storyboard.instantiateViewControllerWithIdentifier("MenuViewController") as! UIViewController
+//        let menuViewController = MenuViewController(nibName: "MenuViewController", bundle: nil)
+//        let menuViewController = MenuViewController(nibName: "MenuViewController")
+        
+        // the window object is already created for us since this is a storyboard app
+        // we would have to initialize this manually in non-storyboard apps
+        window?.rootViewController = menuViewController
+        
+// FIXED        menuViewController.viewControllers = [vc1, vc2, vc3]
+
+        */
         return true
     }
     

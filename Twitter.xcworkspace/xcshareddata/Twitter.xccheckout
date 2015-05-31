@@ -10,6 +10,8 @@
 	<string>Twitter</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
+		<key>239FF148683726FC281929062179C350ADFBD5DC</key>
+		<string>https://github.com/wansteve/twitter3.git</string>
 		<key>853E7DBD5DA3DAC7492C87F93055A4A2E41758E0</key>
 		<string>https://github.com/wansteve/Twitter.git</string>
 	</dict>
@@ -17,15 +19,17 @@
 	<string>Twitter.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>853E7DBD5DA3DAC7492C87F93055A4A2E41758E0</key>
+		<key>239FF148683726FC281929062179C350ADFBD5DC</key>
 		<string>..</string>
+		<key>853E7DBD5DA3DAC7492C87F93055A4A2E41758E0</key>
+		<string>../../Twitter</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/wansteve/Twitter.git</string>
+	<string>https://github.com/wansteve/twitter3.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>853E7DBD5DA3DAC7492C87F93055A4A2E41758E0</string>
+	<string>239FF148683726FC281929062179C350ADFBD5DC</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
@@ -35,6 +39,14 @@
 			<string>853E7DBD5DA3DAC7492C87F93055A4A2E41758E0</string>
 			<key>IDESourceControlWCCName</key>
 			<string>Twitter</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>239FF148683726FC281929062179C350ADFBD5DC</string>
+			<key>IDESourceControlWCCName</key>
+			<string>twitter3</string>
 		</dict>
 	</array>
 </dict>

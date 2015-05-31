@@ -9,6 +9,9 @@
 import UIKit
 
 
+//let twitterConsumerKey = "aHPyNejHHQSceTrKvUoludMbx"
+//let twitterConsumerSecret = "g3e2jQZdp0OHbWzv1fXbU8Zp0JCq26m8uWmVp5KbHWcDq4MkgM"
+
 let twitterConsumerKey = "jc6XmTRyCQkC4ogE4fa2OEqzL"
 let twitterConsumerSecret = "M0lDng9LwKfikAoi54hXtgNDd6IpkQqns31hftYIgnH3ko4ny3"
 

@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		39E857D3C28A07605AFF5FB2 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CDE9426056B83B758FC6826 /* libPods.a */; };
+		564FEC011B1AA0F3005B4F40 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564FEBFF1B1AA0F3005B4F40 /* MenuViewController.swift */; };
 		5694B6B11B11C40600449B67 /* SingleTweetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5694B6B01B11C40600449B67 /* SingleTweetViewController.swift */; };
 		5694B6B31B125B2C00449B67 /* ComposeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5694B6B21B125B2C00449B67 /* ComposeViewController.swift */; };
 		56A066B11B0D5446001CBF0B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56A066B01B0D5446001CBF0B /* AppDelegate.swift */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		564FEBFF1B1AA0F3005B4F40 /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 		5694B6B01B11C40600449B67 /* SingleTweetViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SingleTweetViewController.swift; sourceTree = "<group>"; };
 		5694B6B21B125B2C00449B67 /* ComposeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ComposeViewController.swift; sourceTree = "<group>"; };
 		56A066AB1B0D5446001CBF0B /* Twitter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Twitter.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -102,6 +104,7 @@
 				56DD5DDB1B0D57FB000F6082 /* API */,
 				56CF4F451B10E349004DBA53 /* Models */,
 				56A066B01B0D5446001CBF0B /* AppDelegate.swift */,
+				564FEBFF1B1AA0F3005B4F40 /* MenuViewController.swift */,
 				56F018E41B119123007EBA37 /* TweetsTableViewCell.swift */,
 				56A066B21B0D5446001CBF0B /* ViewController.swift */,
 				56A066B41B0D5446001CBF0B /* Main.storyboard */,
@@ -311,6 +314,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5694B6B31B125B2C00449B67 /* ComposeViewController.swift in Sources */,
+				564FEC011B1AA0F3005B4F40 /* MenuViewController.swift in Sources */,
 				56CF4F471B10E3D1004DBA53 /* User.swift in Sources */,
 				56F018E51B119123007EBA37 /* TweetsTableViewCell.swift in Sources */,
 				56CF4F491B10E3F1004DBA53 /* Tweet.swift in Sources */,
